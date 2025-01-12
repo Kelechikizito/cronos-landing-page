@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div>
+    <div className="bg-[#050505]">
       <Navbar />
     </div>
   );
