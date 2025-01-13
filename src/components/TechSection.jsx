@@ -3,11 +3,11 @@ import Cylinder from '../assets/Cylinder.png'
 const TechSection = () => {
   return (
     <div 
-        className='mt-48 text-white flex flex-col gap-16 pb-10'
+        className='mt-48 text-white flex flex-col gap-16 pb-28'
         style={{backgroundImage: `url(${Cylinder})`,
-                backgroundSize: 'contain',
+                backgroundSize: '60%',
                 backgroundRepeat: 'no-repeat',
-                backgroundPosition: '150% bottom%'}}
+                backgroundPosition: '150% 100%'}}
     >
         <div className="flex justify-between">
             <div className="flex flex-col gap-8">
