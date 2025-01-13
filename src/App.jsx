@@ -4,6 +4,7 @@ import CommunitySection from "./components/CommunitySection";
 import HubSection from "./components/HubSection";
 import StakeSection from "./components/StakeSection";
 import FeatureSection from "./components/FeatureSection";
+import TechSection from "./components/TechSection";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <HubSection />
       <StakeSection />
       <FeatureSection />
+      <TechSection />
     </div>
   );
 }
