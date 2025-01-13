@@ -5,6 +5,8 @@ import HubSection from "./components/HubSection";
 import StakeSection from "./components/StakeSection";
 import FeatureSection from "./components/FeatureSection";
 import TechSection from "./components/TechSection";
+import ContactSection from "./components/ContactSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <StakeSection />
       <FeatureSection />
       <TechSection />
+      <ContactSection />
+      <Footer />
     </div>
   );
 }
