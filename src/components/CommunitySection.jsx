@@ -4,7 +4,7 @@ import Helix from '../assets/Helix.png'
 
 const CommunitySection = () => {
   return (
-    <div className="text-white flex justify-between mt-28 px-24"
+    <div className="text-white flex flex-col md:flex justify-between mt-28 px-24"
     style={{
         backgroundImage: `url(${Helix})`, 
         backgroundRepeat: 'no-repeat',
@@ -27,7 +27,7 @@ const CommunitySection = () => {
                 </p>
             </div>
 
-            <div className="flex">
+            <div className="flex flex-col md:flex">
                 <button className="p-5 px-20 bg-gradient-to-r from-white to-gray-500 text-black">Learn</button>
                 <button className="flex p-5 px-20 gap-2 justify-between items-center">Explore Tokens <span className=""><IoIosArrowForward className="text-white"/></span></button>
             </div>
