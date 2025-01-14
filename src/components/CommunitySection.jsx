@@ -4,7 +4,7 @@ import Helix from '../assets/Helix.png'
 
 const CommunitySection = () => {
   return (
-    <div className="text-white flex flex-col gap-8 lg:gap-0 lg:flex-row justify-between mt-28 px-24"
+    <div className="text-white flex flex-col gap-8 lg:gap-0 lg:flex-row justify-between mt-28 px-24 text-center sm:text-justify"
     style={{
         backgroundImage: `url(${Helix})`, 
         backgroundRepeat: 'no-repeat',
@@ -18,7 +18,7 @@ const CommunitySection = () => {
             </div>
 
             <div>
-                <h1 className="text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">Enter a Universe<br />of Connected<br />Services.</h1>
+                <h1 className="text-3xl sm:text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">Enter a Universe<br />of Connected<br />Services.</h1>
             </div>
 
             <div>
@@ -36,7 +36,7 @@ const CommunitySection = () => {
         <div className="flex flex-col justify-around text-center lg:text-right gap-4 lg:gap-4">
             <div>
                 <div>
-                    <h1 className="text-8xl font-extrabold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">265+</h1>
+                    <h1 className="text-4xl sm:text-8xl font-extrabold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">265+</h1>
                 </div>
 
                 <div>
@@ -46,7 +46,7 @@ const CommunitySection = () => {
 
             <div>
                 <div>
-                    <h1 className="text-8xl font-extrabold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">$63B+</h1>
+                    <h1 className="text-4xl sm:text-8xl font-extrabold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">$63B+</h1>
                 </div>
                 
                 <div>

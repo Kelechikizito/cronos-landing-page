@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <div className="mt-32 pt-32 grid grid-cols-5 text-white pb-32 px-24">
-      <div className="flex flex-col gap-6">
+    <div className="mt-32 pt-32 grid grid-cols-1 lg:grid-cols-5 text-white pb-32 px-24 gap-8 lg:gap-0">
+      <div className="flex flex-col md:flex-row justify-between lg:justify-normal lg:flex-col gap-6 text-center md:text-justify">
         <h1 className="text-2xl font-bold">Learn</h1>
         <p className="opacity-75">Introduction</p>
         <p className="opacity-75">Features</p>
@@ -10,7 +10,7 @@ const Footer = () => {
         <p className="opacity-75">FAQ</p>
       </div>
 
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col md:flex-row justify-between lg:justify-normal lg:flex-col gap-6 text-center md:text-justify">
         <h1 className="text-2xl font-bold">Build</h1>
         <p className="opacity-75">Developer Portal</p>
         <p className="opacity-75">Ignite CLI</p>
@@ -18,7 +18,7 @@ const Footer = () => {
         <p className="opacity-75">IBC Protocol</p>
       </div>
 
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col md:flex-row justify-between lg:justify-normal lg:flex-col gap-6 text-center md:text-justify">
         <h1 className="text-2xl font-bold">Explore</h1>
         <p className="opacity-75">Tokens</p>
         <p className="opacity-75">Apps & Services</p>
@@ -27,7 +27,7 @@ const Footer = () => {
         <p className="opacity-75">Blog</p>
       </div>
 
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col md:flex-row justify-between lg:justify-normal lg:flex-col gap-6 text-center md:text-justify">
         <h1 className="text-2xl font-bold">Participate</h1>
         <p className="opacity-75">Community</p>
         <p className="opacity-75">Contributors</p>
@@ -35,7 +35,7 @@ const Footer = () => {
         <p className="opacity-75">Newsletters</p>
       </div>
 
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col md:flex-row justify-between lg:justify-normal lg:flex-col gap-6 text-center md:text-justify">
         <h1 className="text-2xl font-bold">Resources</h1>
         <p className="opacity-75">About</p>
         <p className="opacity-75">Press Kit</p>

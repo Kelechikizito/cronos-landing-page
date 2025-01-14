@@ -3,20 +3,20 @@ import Cylinder from '../assets/Cylinder.png'
 const TechSection = () => {
   return (
     <div 
-        className='mt-48 text-white flex flex-col gap-16 pb-28 px-24'
+        className='mt-48 text-white flex flex-col gap-16 pb-28 px-24 text-center sm:text-justify'
         style={{backgroundImage: `url(${Cylinder})`,
                 backgroundSize: '60%',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: '150% 100%'}}
     >
-        <div className="flex justify-between">
+        <div className="flex flex-col sm:flex-row justify-between">
             <div className="flex flex-col gap-8">
                 <div className="opacity-75 tracking-widest">
                     <p>TECHNOLOGY</p>
                 </div>
 
                 <div>
-                    <h1 className="text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">The most trusted<br />way to build<br />value.</h1>
+                    <h1 className="text-3xl sm:text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">The most trusted<br />way to build<br />value.</h1>
                 </div>
 
                 <div>
@@ -44,7 +44,7 @@ const TechSection = () => {
                 </div>
 
                 <div>
-                    <h1 className="text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">99%</h1>
+                    <h1 className="text-3xl sm:text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">99%</h1>
                 </div>
 
                 <div>
@@ -53,14 +53,14 @@ const TechSection = () => {
             </div>
         </div>
 
-        <div className="flex justify-between">
-            <div className="flex flex-col gap-8">
+        <div className="flex flex-col sm:flex-row justify-between gap-8 sm:gap-0">
+            <div className="flex flex-col gap-4 sm:gap-8">
                 <div className="opacity-75 tracking-widest">
                     <p>LOW FEES</p>
                 </div>
 
                 <div>
-                    <h1 className="text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">$0.01</h1>
+                    <h1 className="text-3xl sm:text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">$0.01</h1>
                 </div>
 
                 <div>
@@ -68,13 +68,13 @@ const TechSection = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col gap-8">
+            <div className="flex flex-col gap-4 sm:gap-8">
                 <div className="opacity-75 tracking-widest">
                     <p>FAST TRANSACTIONS</p>
                 </div>
 
                 <div>
-                    <h1 className="text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">5 sec</h1>
+                    <h1 className="text-3xl text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">5 sec</h1>
                 </div>
 
                 <div>

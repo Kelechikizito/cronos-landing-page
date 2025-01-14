@@ -9,17 +9,17 @@ const ContactSection = () => {
     <div className='text-white mt-28 flex gap-40 flex-col'>
       <div className='flex flex-col gap-28 px-24'>
         <div className='text-center'>
-          <h1 className="text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">Join the network.</h1>
+          <h1 className="text-3xl sm:text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">Join the network.</h1>
         </div>
 
-        <div className='grid grid-cols-3 gap-10 grid-rows-1'>
+        <div className='grid grid-cols-1 sm:grid-cols-3 gap-10 grid-rows-1 text-center sm:text-justify'>
           <div className='bg-[#141414] py-10 px-4 flex flex-col justify-between gap-8'>
             <div className="opacity-75 tracking-widest mb-10">
               <p>CONNECT</p>
             </div>
 
             <div>
-              <h1 className='text-4xl font-bold'>Connect chains</h1>
+              <h1 className='text-xl sm:text-4xl font-bold'>Connect chains</h1>
             </div>
 
             <div>
@@ -41,7 +41,7 @@ const ContactSection = () => {
             </div>
 
             <div>
-              <h1 className='text-4xl font-bold'>Provide services</h1>
+              <h1 className='text-xl sm:text-4xl font-bold'>Provide services</h1>
             </div>
 
             <div>
@@ -64,7 +64,7 @@ const ContactSection = () => {
             </div>
 
             <div>
-              <h1 className='text-4xl font-bold'>Validator level</h1>
+              <h1 className='text-xl sm:text-4xl font-bold'>Validator level</h1>
             </div>
 
             <div>
@@ -92,7 +92,7 @@ const ContactSection = () => {
       >
         <div className='flex flex-col justify-center gap-4 lg:gap-10'>
           <div>
-            <h1 className="text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">
+            <h1 className="text-3xl sm:text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">
               Meet the<br />worldwide<br />community.
             </h1>
           </div>
@@ -107,43 +107,43 @@ const ContactSection = () => {
           </div>
 
           <div>
-            <h1 className='flex gap-1 text-4xl font-bold justify-center lg:justify-normal'>Community <MdArrowOutward /></h1>
+            <h1 className='flex gap-1 text-xl sm:text-4xl font-bold justify-center lg:justify-normal'>Community <MdArrowOutward /></h1>
           </div>
         </div>
 
-        <div className='flex flex-col gap:10 lg:gap-36'>
-          <div className='flex flex-col gap-8'>
-            <div><h1 className='flex gap-1 text-4xl font-bold justify-center'>Community Chat<MdArrowOutward /></h1></div>
+        <div className='flex flex-col gap-12 lg:gap-36'>
+          <div className='flex flex-col gap-2 lg:gap-8'>
+            <div><h1 className='flex gap-1 text-xl sm:text-4xl font-bold justify-center lg:justify-normal'>Community Chat<MdArrowOutward /></h1></div>
 
             <div><p>Ask general questions and chat with the<br /> 
             worldwide community on Telegram</p></div>
           </div>
 
-          <div className='flex flex-col gap-8'>
-            <div><h1 className='flex gap-1 text-4xl font-bold'>Twitter<MdArrowOutward /></h1></div>
+          <div className='flex flex-col gap-2 lg:gap-8'>
+            <div><h1 className='flex gap-1 text-xl sm:text-4xl font-bold justify-center lg:justify-normal'>Twitter<MdArrowOutward /></h1></div>
 
             <div><p>Follow @cronos to get the latest news<br /> 
             and updates from across the ecosystem.</p></div>
           </div>
 
-          <div className='flex flex-col gap-8'>
-            <div><h1 className='flex gap-1 text-4xl font-bold'>Developer Chat<MdArrowOutward /></h1></div>
+          <div className='flex flex-col gap-2 lg:gap-8'>
+            <div><h1 className='flex gap-1 text-xl sm:text-4xl font-bold justify-center lg:justify-normal'>Developer Chat<MdArrowOutward /></h1></div>
 
             <div><p>Have technical questions about Cronos<br /> 
             tools? Ask a developer on the Discord.</p></div>
           </div>
 
-          <div className='flex flex-col gap-8'>
-            <div><h1 className='flex gap-1 text-4xl font-bold'>Cronos Forum<MdArrowOutward /></h1></div>
+          <div className='flex flex-col gap-2 lg:gap-8'>
+            <div><h1 className='flex gap-1 text-xl sm:text-4xl font-bold justify-center lg:justify-normal'>Cronos Forum<MdArrowOutward /></h1></div>
 
             <div><p>Thinking about becoming a validator or<br />interested in network matters? </p></div>
           </div>
         </div>
       </div>
 
-      <div className='grid grid-cols-2 px-24'>
+      <div className='grid grid-cols-1 gap-8 lg:gap-0 lg:grid-cols-2 px-24'>
         <div className='flex flex-col gap-2'>
-          <div><h1 className='flex gap-1 text-4xl font-bold'>Receive transmissions</h1></div>
+          <div><h1 className='flex gap-1 text-xl sm:text-4xl font-bold'>Receive transmissions</h1></div>
 
           <div><p className='flex gap-1 '>Unsubscribe at any time. Privacy Policy<MdArrowOutward /></p></div>
         </div>

@@ -8,7 +8,7 @@ const FeatureSection = () => {
     <div className="mt-48 flex flex-col text-white gap-20 px-24">
         <div className="flex flex-col gap-12">
             <div>
-                <h1 className="text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">
+                <h1 className="text-3xl sm:text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">
                     Be Part of the Open<br />Economy of the Future.
                 </h1>
             </div>
@@ -24,12 +24,12 @@ const FeatureSection = () => {
                     <p>INTERCHAIN ACCOUNTS</p>
                 </div>
 
-                <div className="size-96">
+                <div className="size-40 sm:size-96">
                     <img src={locker} alt="" className="size-42"/>
                 </div>
 
                 <div>
-                    <h1 className="text-5xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">One secure<br />account for all<br />your digital<br />assets.</h1>
+                    <h1 className="text-2xl sm:text-5xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">One secure<br />account for all<br />your digital<br />assets.</h1>
                 </div>
 
                 <div className="opacity-75 tracking-widest">
@@ -37,14 +37,14 @@ const FeatureSection = () => {
                 </div>
             </div>
 
-            <div className="bg-[#141414] py-8 px-4 flex">
+            <div className="bg-[#141414] py-8 px-4 flex flex-col-reverse sm:flex">
                 <div className="flex flex-col gap-8">
                     <div className="opacity-75 tracking-widest">
                         <p>DECENTRALIZED EXCHANGE</p>
                     </div>
 
                     <div>
-                        <h1 className="text-5xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">Swap<br />tokens &<br />collectibles.</h1>
+                        <h1 className="text-2xl sm:text-5xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">Swap<br />tokens &<br />collectibles.</h1>
                     </div>
 
                     <div className="opacity-75 tracking-widest">
@@ -52,19 +52,19 @@ const FeatureSection = () => {
                     </div>
                 </div>
 
-                <div className="size-64">
+                <div className="size:25 sm:size-64">
                     <img src={yuan} alt="" />
                 </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-8">
+            <div className="grid sm:grid-cols-2 grid-cols-1 gap-8 ">
                 <div className="bg-[#141414] py-8 px-4 flex flex-col gap-8">
                     <div className="opacity-75 tracking-widest">
                         <p>LIQUIDITY POOL</p>
                     </div>
 
                     <div>
-                        <h1 className="text-5xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">Provide<br />liquidity,<br />earn<br />rewards.</h1>
+                        <h1 className=" text-2xl sm:text-5xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">Provide<br />liquidity,<br />earn<br />rewards.</h1>
                     </div>
 
                     <div className="opacity-75 tracking-widest">
@@ -78,7 +78,7 @@ const FeatureSection = () => {
                     </div>
 
                     <div>
-                        <h1 className="text-5xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">Eth<br />Included</h1>
+                        <h1 className="text-2xl sm:text-5xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">Eth<br />Included</h1>
                     </div>
 
                     <div className="opacity-75 tracking-widest">

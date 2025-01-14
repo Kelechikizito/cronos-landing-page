@@ -18,7 +18,7 @@ const HeroSection = () => {
         </div>
 
         <div>
-            <h1 className="text-9xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">
+            <h1 className="text-5xl sm:text-9xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">
                 The Internet of <br/> Blockchains.
             </h1>
         </div>
