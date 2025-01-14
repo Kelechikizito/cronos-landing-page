@@ -5,7 +5,7 @@ import yuan from '../assets/yuan-dynamic-premium.png'
 
 const FeatureSection = () => {
   return (
-    <div className="mt-48 flex flex-col text-white gap-20">
+    <div className="mt-48 flex flex-col text-white gap-20 px-24">
         <div className="flex flex-col gap-12">
             <div>
                 <h1 className="text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">

@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#050505] text-white">
+    <nav className="bg-[#050505] text-white px-16 pt-16">
         <div className="flex flex-col md:flex-row justify-between">      
             
             <div className="flex justify-between">

@@ -7,7 +7,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const HubSection = () => {
   return (
-    <div className="text-white mt-48 flex flex-col gap-12">
+    <div className="text-white mt-48 flex flex-col gap-12 px-32">
         <div 
         className="flex flex-col gap-10 text-center py-12"
         style={{
