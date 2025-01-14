@@ -83,14 +83,14 @@ const ContactSection = () => {
         </div>
       </div>
 
-      <div className='grid grid-cols-2 px-24'
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0 px-24 text-center lg:text-justify'
       style={{backgroundImage:`url(${sphere})`,
               backgroundRepeat: 'no-repeat',
               backgroundSize: '50%',
               backgroundPosition: '-25% center'
     }}
       >
-        <div className='flex flex-col justify-center gap-10'>
+        <div className='flex flex-col justify-center gap-4 lg:gap-10'>
           <div>
             <h1 className="text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">
               Meet the<br />worldwide<br />community.
@@ -107,13 +107,13 @@ const ContactSection = () => {
           </div>
 
           <div>
-            <h1 className='flex gap-1 text-4xl font-bold'>Community <MdArrowOutward /></h1>
+            <h1 className='flex gap-1 text-4xl font-bold justify-center lg:justify-normal'>Community <MdArrowOutward /></h1>
           </div>
         </div>
 
-        <div className='flex flex-col gap-36'>
+        <div className='flex flex-col gap:10 lg:gap-36'>
           <div className='flex flex-col gap-8'>
-            <div><h1 className='flex gap-1 text-4xl font-bold'>Community Chat<MdArrowOutward /></h1></div>
+            <div><h1 className='flex gap-1 text-4xl font-bold justify-center'>Community Chat<MdArrowOutward /></h1></div>
 
             <div><p>Ask general questions and chat with the<br /> 
             worldwide community on Telegram</p></div>

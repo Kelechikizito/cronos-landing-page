@@ -18,7 +18,7 @@ const FeatureSection = () => {
             </div>
         </div>
 
-        <div className="grid grid-cols-2 grid-rows-2 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 gap-10">
             <div className="bg-[#141414] row-span-2 py-8 px-4 flex flex-col gap-8">
                 <div className="opacity-75 tracking-widest">
                     <p>INTERCHAIN ACCOUNTS</p>

@@ -4,7 +4,7 @@ import Helix from '../assets/Helix.png'
 
 const CommunitySection = () => {
   return (
-    <div className="text-white flex flex-col md:flex justify-between mt-28 px-24"
+    <div className="text-white flex flex-col gap-8 lg:gap-0 lg:flex-row justify-between mt-28 px-24"
     style={{
         backgroundImage: `url(${Helix})`, 
         backgroundRepeat: 'no-repeat',
@@ -27,13 +27,13 @@ const CommunitySection = () => {
                 </p>
             </div>
 
-            <div className="flex flex-col md:flex">
+            <div className="flex flex-col gap-4 lg:flex-row lg:gap-0">
                 <button className="p-5 px-20 bg-gradient-to-r from-white to-gray-500 text-black">Learn</button>
-                <button className="flex p-5 px-20 gap-2 justify-between items-center">Explore Tokens <span className=""><IoIosArrowForward className="text-white"/></span></button>
+                <button className="flex p-5 px-20 gap-2 justify-center lg:justify-between items-center">Explore Tokens <span className=""><IoIosArrowForward className="text-white"/></span></button>
             </div>
         </div>
 
-        <div className="flex flex-col justify-around text-right">
+        <div className="flex flex-col justify-around text-center lg:text-right gap-4 lg:gap-4">
             <div>
                 <div>
                     <h1 className="text-8xl font-extrabold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">265+</h1>
