@@ -1,19 +1,32 @@
-import sphere from '../assets/Sphere.png'
+import { motion } from "framer-motion";
 import { MdArrowOutward } from "react-icons/md";
-import copySuccess from '../assets/copy-success.png'
-import formatSquare from '../assets/format-square.png'
-import people from '../assets/people.png'
+import formatSquare from '../assets/format-square.png';
+import copySuccess from '../assets/copy-success.png';
+import people from '../assets/people.png';
+import sphere from '../assets/sphere.png';
 
 const ContactSection = () => {
   return (
     <div className='text-white mt-28 flex gap-40 flex-col'>
       <div className='flex flex-col gap-28 px-8 sm:px-24'>
         <div className='text-center'>
-          <h1 className="text-3xl sm:text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">Join the network.</h1>
+          <motion.h1
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className="text-3xl sm:text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent"
+          >
+            Join the network.
+          </motion.h1>
         </div>
 
         <div className='grid grid-cols-1 sm:grid-cols-3 gap-10 grid-rows-1 text-center sm:text-justify'>
-          <div className='bg-[#141414] py-10 px-4 flex flex-col justify-between gap-8'>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className='bg-[#141414] py-10 px-4 flex flex-col justify-between gap-8 hover:cursor-pointer hover:scale-105'
+          >
             <div className="opacity-75 tracking-widest mb-10">
               <p>CONNECT</p>
             </div>
@@ -31,11 +44,16 @@ const ContactSection = () => {
             </div>
 
             <div className='mt-10'>
-              <img src={formatSquare}/>
+              <img src={formatSquare} alt="Connect chains"/>
             </div>
-          </div>
+          </motion.div>
 
-          <div className='bg-[#141414] py-10 px-4 flex flex-col justify-between gap-8'>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className='bg-[#141414] py-10 px-4 flex flex-col justify-between gap-8 hover:cursor-pointer hover:scale-105'
+          >
             <div className="opacity-75 tracking-widest mb-10">
               <p>INTEGRATE</p>
             </div>
@@ -54,11 +72,16 @@ const ContactSection = () => {
             </div>
 
             <div className='mt-10'>
-              <img src={copySuccess}/>
+              <img src={copySuccess} alt="Provide services"/>
             </div>
-          </div>
+          </motion.div>
 
-          <div className='bg-[#141414] py-10 px-4 flex flex-col justify-between gap-8'>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className='bg-[#141414] py-10 px-4 flex flex-col justify-between gap-8 hover:cursor-pointer hover:scale-105'
+          >
             <div className="opacity-75 tracking-widest mb-10">
               <p>VALIDATE</p>
             </div>
@@ -77,20 +100,25 @@ const ContactSection = () => {
             </div>
 
             <div className='mt-10'>
-              <img src={people}/>
+              <img src={people} alt="Validator level"/>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
 
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0 px-8 sm:px-24 text-center lg:text-justify'
-      style={{backgroundImage:`url(${sphere})`,
-              backgroundRepeat: 'no-repeat',
-              backgroundSize: '50%',
-              backgroundPosition: '-25% center'
-    }}
+        style={{backgroundImage:`url(${sphere})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: '50%',
+                backgroundPosition: '-25% center'
+        }}
       >
-        <div className='flex flex-col justify-center gap-4 lg:gap-10'>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className='flex flex-col justify-center gap-4 lg:gap-10'
+        >
           <div>
             <h1 className="text-3xl sm:text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">
               Meet the<br />worldwide<br />community.
@@ -109,9 +137,14 @@ const ContactSection = () => {
           <div>
             <h1 className='flex gap-1 text-xl sm:text-4xl font-bold justify-center lg:justify-normal'>Community <MdArrowOutward /></h1>
           </div>
-        </div>
+        </motion.div>
 
-        <div className='flex flex-col gap-12 lg:gap-36'>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className='flex flex-col gap-12 lg:gap-36'
+        >
           <div className='flex flex-col gap-2 lg:gap-8'>
             <div><h1 className='flex gap-1 text-xl sm:text-4xl font-bold justify-center lg:justify-normal'>Community Chat<MdArrowOutward /></h1></div>
 
@@ -138,25 +171,10 @@ const ContactSection = () => {
 
             <div><p>Thinking about becoming a validator or<br />interested in network matters? </p></div>
           </div>
-        </div>
-      </div>
-
-      <div className='grid grid-cols-1 gap-8 lg:gap-0 lg:grid-cols-2 px-8 sm:px-24'>
-        <div className='flex flex-col gap-2'>
-          <div><h1 className='flex gap-1 text-xl sm:text-4xl font-bold'>Receive transmissions</h1></div>
-
-          <div><p className='flex gap-1 '>Unsubscribe at any time. Privacy Policy<MdArrowOutward /></p></div>
-        </div>
-
-        <div>
-          <div className='bg-[#141414] flex h-[100%] p-4 justify-between'>
-            <input type='text' placeholder='Your email' className='bg-[#141414] w-[50%]'/>
-            <button>{">"}</button>
-          </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   )
 }
 
-export default ContactSection
+export default ContactSection;
