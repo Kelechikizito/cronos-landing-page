@@ -4,7 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const StakeSection = () => {
   return (
-    <div className='mt-48 flex flex-col lg:flex-row justify-between text-white px-24 lg:pr-24 lg:pl-0'>
+    <div className='mt-48 flex flex-col lg:flex-row justify-between text-white px-8 sm:px-24 lg:pr-24 lg:pl-0'>
         <div>
             <img src={icosahedron} alt='' className='size-25 sm:size-[35rem]'/>
         </div>

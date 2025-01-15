@@ -7,7 +7,7 @@ import people from '../assets/people.png'
 const ContactSection = () => {
   return (
     <div className='text-white mt-28 flex gap-40 flex-col'>
-      <div className='flex flex-col gap-28 px-24'>
+      <div className='flex flex-col gap-28 px-8 sm:px-24'>
         <div className='text-center'>
           <h1 className="text-3xl sm:text-7xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">Join the network.</h1>
         </div>
@@ -83,7 +83,7 @@ const ContactSection = () => {
         </div>
       </div>
 
-      <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0 px-24 text-center lg:text-justify'
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0 px-8 sm:px-24 text-center lg:text-justify'
       style={{backgroundImage:`url(${sphere})`,
               backgroundRepeat: 'no-repeat',
               backgroundSize: '50%',
@@ -141,7 +141,7 @@ const ContactSection = () => {
         </div>
       </div>
 
-      <div className='grid grid-cols-1 gap-8 lg:gap-0 lg:grid-cols-2 px-24'>
+      <div className='grid grid-cols-1 gap-8 lg:gap-0 lg:grid-cols-2 px-8 sm:px-24'>
         <div className='flex flex-col gap-2'>
           <div><h1 className='flex gap-1 text-xl sm:text-4xl font-bold'>Receive transmissions</h1></div>
 

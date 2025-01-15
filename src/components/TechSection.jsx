@@ -3,7 +3,7 @@ import Cylinder from '../assets/Cylinder.png'
 const TechSection = () => {
   return (
     <div 
-        className='mt-48 text-white flex flex-col gap-16 pb-28 px-24 text-center sm:text-justify'
+        className='mt-48 text-white flex flex-col gap-16 pb-28 px-8 sm:px-24 text-center sm:text-justify'
         style={{backgroundImage: `url(${Cylinder})`,
                 backgroundSize: '60%',
                 backgroundRepeat: 'no-repeat',

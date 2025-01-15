@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="mt-32 pt-32 grid grid-cols-1 lg:grid-cols-5 text-white pb-32 px-24 gap-8 lg:gap-0">
+    <div className="mt-32 pt-32 grid grid-cols-1 lg:grid-cols-5 text-white pb-32 px-8 sm:px-24 gap-8 lg:gap-0">
       <div className="flex flex-col md:flex-row justify-between lg:justify-normal lg:flex-col gap-6 text-center md:text-justify">
         <h1 className="text-2xl font-bold">Learn</h1>
         <p className="opacity-75">Introduction</p>

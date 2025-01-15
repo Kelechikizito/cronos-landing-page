@@ -4,7 +4,7 @@ import Helix from '../assets/Helix.png'
 
 const CommunitySection = () => {
   return (
-    <div className="text-white flex flex-col gap-8 lg:gap-0 lg:flex-row justify-between mt-28 px-24 text-center sm:text-justify"
+    <div className="text-white flex flex-col gap-8 lg:gap-0 lg:flex-row justify-between mt-28 px-8 sm:px-24 text-center sm:text-justify"
     style={{
         backgroundImage: `url(${Helix})`, 
         backgroundRepeat: 'no-repeat',

@@ -7,7 +7,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const HubSection = () => {
   return (
-    <div className="text-white mt-48 flex flex-col gap-12 px-32">
+    <div className="text-white mt-48 flex flex-col gap-12 px-8 sm:px-32">
         <div 
         className="flex flex-col gap-10 text-center py-12"
         style={{
@@ -34,7 +34,7 @@ const HubSection = () => {
 
         <div className='grid grid-cols-1 sm:grid-cols-2 sm:grid-rows-2 gap-12 text-center sm:text-justify'>
             <div className='flex flex-col gap-4'>
-                <div><img src={image5} alt='' className=' size-25 sm:size-60'/></div>
+                <div className='flex justify-center sm:justify-normal'><img src={image5} alt='' className='w-25 sm:w-60'/></div>
 
                 <div>
                     <h1 className=' text-xl sm:text-4xl font-bold'>MarketPlace</h1>
@@ -52,7 +52,7 @@ const HubSection = () => {
             </div>
 
             <div className='flex flex-col gap-4'>
-                <div><img src={image6} alt='' className=' size-25 sm:size-60'/></div>
+                <div className='flex justify-center sm:justify-normal'><img src={image6} alt='' className='w-25 sm:w-60'/></div>
 
                 <div><h1 className=' text-xl sm:text-4xl font-bold'>Security provider</h1></div>
 
@@ -68,7 +68,7 @@ const HubSection = () => {
             </div>
 
             <div className='flex flex-col gap-4'>
-                <div><img src={image4} alt='' className='size-25 sm:size-60'/></div>
+                <div className='flex justify-center sm:justify-normal'><img src={image4} alt='' className='w-25 sm:w-60'/></div>
 
                 <div><h1 className=' text-xl sm:text-4xl font-bold'>Router</h1></div>
 
@@ -84,7 +84,7 @@ const HubSection = () => {
             </div>
 
             <div className='flex flex-col gap-4'>
-                <div><img src={image3} alt='' className='size-25 sm:size-60'/></div>
+                <div className='flex justify-center sm:justify-normal'><img src={image3} alt='' className='w-25 sm:w-60'/></div>
 
                 <div><h1 className=' text-xl sm:text-4xl font-bold'>Custodian</h1></div>
 
