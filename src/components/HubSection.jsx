@@ -84,7 +84,7 @@ const HubSection = () => {
             </div>
 
             <div className='flex flex-col gap-4'>
-                <div className='flex justify-center sm:justify-normal'><img src={image3} alt='' className='w-25 sm:w-60'/></div>
+                <div ><img src={image3} alt='' className='w-25 sm:w-60'/></div>
 
                 <div><h1 className=' text-xl sm:text-4xl font-bold'>Custodian</h1></div>
 
